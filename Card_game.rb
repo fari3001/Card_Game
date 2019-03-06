@@ -3,7 +3,7 @@ require 'colorize'  #ruby gem to allow for colorization
 
 
 
-
+system("clear")
 def startup     #Displays the welcome message an options for playing and rules
 loop do
     puts "Welcome to the game 21!".colorize(:background => :blue)
